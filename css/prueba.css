@@ -1,0 +1,68 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/*colores principales*/
+/*6*/
+/*medidas*/
+nav {
+  background-color: black;
+  font-family: "Bebas Neue", cursive;
+  font-size: 2em;
+}
+
+.letterc {
+  color: pink;
+}
+.letterc:hover {
+  color: #1C67B4;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.encabezado {
+  font-family: "Bebas Neue", cursive;
+  font-size: 3em;
+  text-align: center;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+}
+
+body {
+  background: pink;
+}
+
+.parrafo {
+  font-family: "Bebas Neue", cursive;
+  font-size: large;
+  text-align: start;
+}
+
+.subtitulos {
+  font-family: "Bebas Neue", cursive;
+  font-size: 1.5em;
+  text-align: center;
+}
+
+.padnov {
+  margin-right: 1.5em;
+  margin-left: 1.5em;
+}
+
+.padnov1 {
+  margin-right: 1.5em;
+  margin-left: 3em;
+}
+
+#wpp {
+  position: fixed;
+  bottom: 24px;
+  right: 30px;
+}
+
+/*# sourceMappingURL=prueba.css.map */
