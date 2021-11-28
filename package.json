@@ -14,5 +14,13 @@
     "nodemon": "^2.0.12"
   },
   "devDependencies": {},
-  "description": ""
+  "description": "b<h1 align=\"center\">Hola 👋, Soy Fernando Ezequiel Montiel</h1>\r <h3 align=\"center\">Estudiante Full stack (back and front) de Argentina.</h3>",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fernadomontiel/pruba.git"
+  },
+  "bugs": {
+    "url": "https://github.com/fernadomontiel/pruba/issues"
+  },
+  "homepage": "https://github.com/fernadomontiel/pruba#readme"
 }
