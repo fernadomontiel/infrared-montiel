@@ -11,14 +11,31 @@
 	margin-top: 2%;
 }
 
+.encabezado-2{
+	display: flex;
+	justify-content: center;
+    align-items: center;
+	
+	
+}
+@media screen {
+	
+}
+
+
+  /*cierra nav*/
+
 .body-servicios{
 	background-image: url(../img/fondo-1.png);
 	background-repeat: no-repeat;
 	background-position: 100% -2%;
-	
-
-
 }
+.body-index{
+	
+	background-image: url(img/fondo-2.png);
+	
+}
+  
 /*PARRAFOS*/
 .parrafo{
 	font-family: "Bebas Neue", cursive;
@@ -33,6 +50,7 @@
 	font-family: "Bebas Neue", cursive;
 	color: white;
 	margin: 20% 14% 10% 40%;
+	
 }
 .parrafo-2{
 	font-family: "Bebas Neue", cursive;
@@ -72,8 +90,29 @@
 	color: pink;
 	margin: 4% 20% 10% 10% ;
 	display: flex;
-	align-items: flex-end;
+	align-items: center;
 	
+}
+
+.parrafo-7{
+	font-family: "Bebas Neue", cursive;
+	color: pink;
+	margin: 50% 20% 10% 10% ;
+	display: flex;
+	align-items: center;
+	
+}
+
+.parrafo-8{
+	font-family: "Bebas Neue", cursive;
+	color: white;
+	font-size: 6em;
+	flex-wrap: wrap;
+	
+	text-decoration: none;
+	margin: 0% 50% 70% 0%;
+
+
 }
 /*IMAGENES*/
 
@@ -85,8 +124,6 @@
 	margin-right: 6%;
 	margin-top: 10%;
 	border: 4px solid white;
-
-
 }
 
 .imagenes-portrait{
@@ -100,11 +137,13 @@
 	align-items: center;
 	margin: 10% 0% 10% 10%;
 	border: 4px solid white;
+	
 }
 
 .imagen-evento-1{
 	margin: 10% 0% 10% 20%;
 	border: 4px solid pink;
+
 }
 
 .imagen-evento-2{
@@ -130,14 +169,13 @@
 
 
 
-/* On screens that are 992px wide or less, go from four columns to two columns */
 @media screen and (max-width: 992px) {
   .column {
     width: 50%;
   }
 }
 
-/* On screens that are 600px wide or less, make the columns stack on top of each other instead of next to each other */
+
 @media screen and (max-width: 600px) {
   .column {
     width: 100%;
@@ -148,6 +186,7 @@
 		    height: 200px;
 			align-items: center;		
     }
+}
 	.parrafo-1{
 		text-align: center;
 
@@ -179,4 +218,3 @@
 		align-items: center;
 		flex-wrap: wrap;
 	}
-}

@@ -28,9 +28,35 @@ nav {
 .encabezado {
   font-family: "Bebas Neue", cursive;
   color: white;
-  font-size: 6em;
+  font-size: 4em;
   flex-wrap: wrap;
   margin-top: 2%;
+  text-decoration: none;
+  
+}
+.encabezado-3 {
+  font-family: "Bebas Neue", cursive;
+  color: white;
+  font-size: 1em;
+  flex-wrap: wrap;
+ 
+  text-decoration: none;
+  margin-left: 1%;
+  
+}
+
+.encabezado-4 {
+  font-family: "Bebas Neue", cursive;
+  color: white;
+  font-size: 5em;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 5%;
+  margin-top: 3%;
+  text-decoration: none;
+  margin-left: 1%;
+  
 }
 
 .body-servicios {
@@ -93,6 +119,19 @@ nav {
   align-items: flex-end;
 }
 
+.parrafo-8{
+	font-family: "Bebas Neue", cursive;
+	color: white;
+	font-size: 6em;
+	flex-wrap: wrap;
+  text-decoration: none;
+  text-decoration: none;
+  position: relative;
+  bottom: 90%;
+  left: 68%;
+
+}
+
 /*IMAGENES*/
 .imagenes-flex {
   display: flex;
@@ -138,35 +177,36 @@ nav {
   margin: 0% 0% 30% 0%;
 }
 
-/* On screens that are 992px wide or less, go from four columns to two columns */
+
+
+
+
 @media screen and (max-width: 992px) {
   .column {
     width: 50%;
   }
 }
-/* On screens that are 600px wide or less, make the columns stack on top of each other instead of next to each other */
+
 @media screen and (max-width: 600px) {
   .column {
     width: 100%;
   }
 }
 @media screen and (max-width: 400px) {
-  iframe {
+  iframe{
     width: 270px;
     height: 200px;
     align-items: center;
   }
+  
+ 
 
   .parrafo-1 {
     text-align: center;
   }
 
-  .iframe-1 {
-    width: 270px;
-    height: 500px;
-    align-items: center;
-    margin: auto;
-  }
+  
+  
 
   .parrafo-2 {
     text-align: left;
