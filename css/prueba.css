@@ -36,7 +36,7 @@ nav {
 .body-servicios {
   background-image: url(../img/fondo-1.png);
   background-repeat: no-repeat;
-  background-position: 100% 0%;
+  background-position: 100% -2%;
 }
 
 /*PARRAFOS*/
@@ -152,8 +152,41 @@ nav {
 }
 @media screen and (max-width: 400px) {
   iframe {
-    width: 300px;
+    width: 270px;
     height: 200px;
+    align-items: center;
+  }
+
+  .parrafo-1 {
+    text-align: center;
+  }
+
+  .iframe-1 {
+    width: 270px;
+    height: 500px;
+    align-items: center;
+    margin: auto;
+  }
+
+  .parrafo-2 {
+    text-align: left;
+  }
+
+  .imagenes-flex {
+    display: flex;
+    columns: 1;
+    width: 200px;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .imagenes-portrait {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
   }
 }
 #wpp {
