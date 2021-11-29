@@ -35,8 +35,8 @@ nav {
 
 .body-servicios {
   background-image: url(/img/fondo-1.png);
-  background-repeat: repeat;
-  background-position: center;
+  background-repeat: no-repeat;
+  background-position: 100% 2%;
 }
 
 .parrafo {
@@ -61,12 +61,35 @@ nav {
   align-items: flex-start;
 }
 
+.parrafo-3 {
+  font-family: "Bebas Neue", cursive;
+  color: pink;
+  margin: 16% 10% 0% 20%;
+  display: flex;
+}
+
 .parrafo-4 {
   font-family: "Bebas Neue", cursive;
   color: pink;
-  margin: 0% 20% 30% 20%;
+  margin: 10% 20% 0% 10%;
   display: flex;
-  align-items: flex-start;
+  align-items: flex-end;
+}
+
+.parrafo-5 {
+  font-family: "Bebas Neue", cursive;
+  color: pink;
+  margin: 4% 20% 0% 10%;
+  display: flex;
+  align-items: flex-end;
+}
+
+.parrafo-6 {
+  font-family: "Bebas Neue", cursive;
+  color: pink;
+  margin: 4% 20% 10% 10%;
+  display: flex;
+  align-items: flex-end;
 }
 
 .imagenes-flex {
@@ -89,6 +112,27 @@ nav {
   align-items: center;
   margin: 10% 0% 10% 10%;
   border: 4px solid white;
+}
+
+.imagen-evento-1 {
+  margin: 10% 0% 10% 20%;
+  border: 4px solid pink;
+}
+
+.imagen-evento-2 {
+  margin: 10% 0% 10% 20%;
+  border: 4px solid pink;
+}
+
+.contenedor-egresados {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.container-videos {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0% 0% 30% 0%;
 }
 
 .subtitulos {
@@ -137,10 +181,97 @@ nav {
     width: 100%;
   }
 }
+@media screen and (max-width: 400px) {
+  iframe {
+    width: 300px;
+    height: 200px;
+  }
+}
 #wpp {
   position: fixed;
   bottom: 24px;
   right: 30px;
+}
+
+footer {
+  background-color: pink;
+  padding: 70px 0;
+  margin-top: 10%;
+}
+
+.footer-col {
+  width: 25%;
+  padding: 0 15px;
+}
+
+.footer-col h4 {
+  font-size: 18px;
+  color: black;
+  text-transform: capitalize;
+  margin-bottom: 35px;
+  font-weight: 500;
+  position: relative;
+}
+
+.footer-col h4::before {
+  position: absolute;
+  left: 0;
+  bottom: -10px;
+  background-color: #e91e63;
+  height: 2px;
+  box-sizing: border-box;
+  width: 50px;
+}
+
+.footer-col ul li:not(:last-child) {
+  margin-bottom: 10px;
+}
+
+.footer-col ul li a {
+  font-size: 16px;
+  text-transform: capitalize;
+  color: black;
+  text-decoration: none;
+  font-weight: 300;
+  color: white;
+  display: block;
+  transition: all 0.3s ease;
+}
+
+.footer-col ul li a:hover {
+  color: red;
+  padding-left: 8px;
+}
+
+.footer-col .social-links a {
+  display: inline-block;
+  height: 40px;
+  width: 40px;
+  background-color: black;
+  margin: 0 10px 10px 0;
+  text-align: center;
+  line-height: 40px;
+  border-radius: 50%;
+  color: pink;
+  transition: all 0.5s ease;
+}
+
+.footer-col .social-links a:hover {
+  color: #24262b;
+  background-color: pink;
+}
+
+/*responsive*/
+@media (max-width: 767px) {
+  .footer-col {
+    width: 50%;
+    margin-bottom: 30px;
+  }
+}
+@media (max-width: 574px) {
+  .footer-col {
+    width: 100%;
+  }
 }
 
 /*# sourceMappingURL=prueba.css.map */
