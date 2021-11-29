@@ -20,10 +20,6 @@ nav {
   color: #1C67B4;
 }
 
-.color-nav {
-  background-color: black;
-}
-
 * {
   margin: 0;
   padding: 0;
@@ -39,8 +35,8 @@ nav {
 
 .body-servicios {
   background-image: url(/img/fondo-1.png);
-  background-repeat: no-repeat;
-  background-position: 100% 34%;
+  background-repeat: repeat;
+  background-position: center;
 }
 
 .parrafo {
@@ -60,6 +56,14 @@ nav {
 .parrafo-2 {
   font-family: "Bebas Neue", cursive;
   color: white;
+  margin: 0% 20% 30% 20%;
+  display: flex;
+  align-items: flex-start;
+}
+
+.parrafo-4 {
+  font-family: "Bebas Neue", cursive;
+  color: pink;
   margin: 0% 20% 30% 20%;
   display: flex;
   align-items: flex-start;

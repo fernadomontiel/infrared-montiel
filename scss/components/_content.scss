@@ -13,8 +13,8 @@
 
 .body-servicios{
 	background-image: url(/img/fondo-1.png);
-	background-repeat: no-repeat;
-	background-position: 100% 34%;
+	background-repeat: repeat;
+	background-position: center;
 
 
 }
@@ -35,6 +35,14 @@
 .parrafo-2{
 	font-family: "Bebas Neue", cursive;
 	color: white;
+	margin: 0% 20% 30% 20% ;
+	display: flex;
+	align-items: flex-start;
+}
+
+.parrafo-4{
+	font-family: "Bebas Neue", cursive;
+	color: pink;
 	margin: 0% 20% 30% 20% ;
 	display: flex;
 	align-items: flex-start;
