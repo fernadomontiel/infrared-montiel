@@ -1,5 +1,5 @@
 {
-  "name": "miweb",
+  "name": "infrared-montiel",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
@@ -9,11 +9,10 @@
   },
   "author": "",
   "license": "ISC",
-  "dependencies": {
-    "node-sass": "^6.0.1",
-    "nodemon": "^2.0.12"
+  "devDependencies": {
+    "node-sass": "^7.0.0",
+    "nodemon": "^2.0.15"
   },
-  "devDependencies": {},
   "description": "b<h1 align=\"center\">Hola 👋, Soy Fernando Ezequiel Montiel</h1>\r <h3 align=\"center\">Estudiante Full stack (back and front) de Argentina.</h3>",
   "repository": {
     "type": "git",

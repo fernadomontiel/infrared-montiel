@@ -1,30 +1,8 @@
-* {
-  margin: 0;
-  padding: 0;
-}
-
-.encabezado{
-	font-family: "Bebas Neue", cursive;
-	color: white;
-	font-size: 6em;
-	flex-wrap: wrap;
-	margin-top: 2%;
-}
-
-.encabezado-2{
-	display: flex;
-	justify-content: center;
-    align-items: center;
-	
-	
-}
-@media screen {
-	
-}
 
 
-  /*cierra nav*/
 
+
+/*
 .body-servicios{
 	background-image: url(../img/fondo-1.png);
 	background-repeat: no-repeat;
@@ -36,7 +14,7 @@
 	
 }
   
-/*PARRAFOS*/
+/*PARRAFOS
 .parrafo{
 	font-family: "Bebas Neue", cursive;
 	color: white;
@@ -114,7 +92,7 @@
 
 
 }
-/*IMAGENES*/
+/*IMAGENES
 
 
 .imagenes-flex{
@@ -152,7 +130,7 @@
 }
 
 
-/*CONTENEDORES*/
+/*CONTENEDORES
 
 .contenedor-egresados{
 	display: flex;
@@ -218,3 +196,4 @@
 		align-items: center;
 		flex-wrap: wrap;
 	}
+*/

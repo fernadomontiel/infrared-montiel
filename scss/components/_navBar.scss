@@ -1,15 +1,15 @@
-//botstrap
-nav{
-    background-color: nth($colores,1);
+.color-nav{
+	background-color: #FFA4B4;
+}
+.letras-nav{
+	color: black;
 	font-family: 'Bebas Neue', cursive;
 	font-size: 2em;
-	
 }
-
-.letterc{
-	color: pink;
-	
-	&:hover{
-		color: nth($colores,2);
-	}
+@media screen and (max-width: 574px)
+{
+	.letras-nav
+	{ 
+        font-size: 1em;
+	} 
 }
