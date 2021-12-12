@@ -222,7 +222,7 @@ header {
   }
 }
 .body-ir {
-  background-image: url(/img/fondo-2.png);
+  background-image: url(../img/fondo-2.png);
   background-position: 50% 18%;
   width: 100%;
 }
@@ -312,7 +312,7 @@ header {
   }
 }
 .body-servicios {
-  background-image: url(/img/fondo-3.png);
+  background-image: url(../img/fondo-3.png);
 }
 
 .encabezado-s {
