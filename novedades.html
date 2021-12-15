@@ -21,6 +21,9 @@
 
      <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
      
+     <!-- aos css -->
+     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
      <!--titulo-->
           
           <title>Novedades - Novedades</title>
@@ -33,54 +36,77 @@
      <body class="body-servicios">
      
      <header>
-     <!--inicia nav-->
-          <nav class="navbar navbar-expand-lg navbar-light bg-light">
-               <div class="container-fluid">
+     
+      <!--inicia nav-->
+     <nav class="navbar navbar-expand-lg navbar-light color-nav ">
+          <div class="container-fluid">
+               <div data-aos="zoom-in" data-aos-delay="400" data-aos-duration="800" >
                     <a class="navbar-brand w-50" href="index.html"><img src="img/nav.png" alt="inicio-logo-infrared"></a>
-                         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                              <span class="navbar-toggler-icon"></span>
-                         </button>
-               <div class="collapse navbar-collapse show" id="navbarNavAltMarkup">
+               </div>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                         <span class="navbar-toggler-icon"></span>
+                    </button>
+          <div class="collapse navbar-collapse show" id="navbarNavAltMarkup">
                <div class="navbar-nav">
-                    <a class="nav-link active" aria-current="page" href="infraRed.html">Infrared</a>
-                    <a class="nav-link" href="servicios.html">Servicios</a>
-                    <a class="nav-link" href="novedades.html">Novedades</a>
+                    <div data-aos="zoom-in-up" data-aos-delay="400" data-aos-duration="800">
+                         <a class="nav-link active letras-nav" aria-current="page" href="infraRed.html">Infrared</a>
+                    </div>
+               <div data-aos="zoom-in-up" data-aos-delay="400" data-aos-duration="800">
+                    <a class="nav-link letras-nav" href="servicios.html">Servicios</a>
                </div>
+               <div data-aos="zoom-in-up" data-aos-delay="400" data-aos-duration="800">
+                    <a class="nav-link letras-nav" href="novedades.html">Novedades</a>
                </div>
+           
                </div>
-          </nav>
-     <!--cierra nav-->
+          </div>
+     </nav>
+          
+<!--cierra nav-->
      </header>
 
 
 <!--encabezado-->
      <section>
-	     <div>
-		     <h1 class="animate__animated animate__backInLeft encabezado-4">Seguinos en instagram</h1>
+	     <div data-aos="fade-right" data-aos-delay="200" data-aos-duration="800">
+
+		     <h1 class="encabezado">Seguinos en instagram</h1>
 		     
 	     </div>
 
-	     <div>
-               <h2 class="animate__animated animate__backInLeft encabezado-4">para enterarte las novedades</h2>
+	     <div data-aos="fade-right" data-aos-delay="200" data-aos-duration="800">
+
+               <h2 class="encabezado">para enterarte las novedades</h2>
+
           </div>
      </section>
 
 <!--iframes-->
      <section>
-          <div class="container d-flex  justify-content-evenly">
-               <div class="m-3 bd-highlight d-inline-block">
-                    <iframe  width="320" height="440" src="https://www.instagram.com/p/CWWHIs6rXlO/embed" frameborder="0" ></iframe>
-               </div>
-               <div class="m-3 bd-highlight d-inline-block">
-                    <iframe width="320" height="440" src="https://www.instagram.com/p/CVjWDbKNKhS/embed" frameborder="0"></iframe>
-               </div>
-               <div class="m-3 bd-highlight d-inline-block">
-                    <iframe width="320" height="440" src="https://www.instagram.com/p/CVMUxYrrsl3/embed" frameborder="0"></iframe>
-               </div>
-               <div class="m-3 bd-highlight d-inline-block">
-                    <iframe width="320" height="440" src="https://www.instagram.com/reel/CP6qzSdABFN/embed" frameborder="0"></iframe>
-               </div>
+          <div class="iframe-novedades">
+               
+               <iframe class="iframe-novedades" width="320" height="440" src="https://www.instagram.com/p/CWWHIs6rXlO/embed" frameborder="0" ></iframe>
+               
           </div>
+               
+          <div class="iframe-novedades">
+
+               <iframe class="iframe-novedades" width="320" height="440" src="https://www.instagram.com/p/CVjWDbKNKhS/embed" frameborder="0"></iframe>
+               
+          </div>
+               
+          <div class="iframe-novedades">
+                    
+               <iframe width="320" height="440" src="https://www.instagram.com/p/CVMUxYrrsl3/embed" frameborder="0"></iframe>
+               
+          </div>
+               
+          <div class="iframe-novedades">
+                    
+               <iframe width="320" height="440" src="https://www.instagram.com/reel/CP6qzSdABFN/embed" frameborder="0"></iframe>
+               
+          </div>
+          
      </section>
 
 <!-- inicia footer -->
@@ -133,7 +159,10 @@
 
 <!-- Option 1: Bootstrap Bundle with Popper -->
           <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
-
+          <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+          <script>
+          AOS.init();
+          </script>
      </body>
 
 
